@@ -1,0 +1,1731 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lily/ontologies/2024/11/TCM"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lily/ontologies/2024/11/TCM"
+     versionIRI="urn:absolute:_20141215">
+    <Prefix name="" IRI="http://www.semanticweb.org/lily/ontologies/2024/11/TCM/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AbdominalPalpation(腹部触诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acupoints(腧穴)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acupuncture(针灸)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anger(怒)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalParts(器官)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalProducts(动物产品)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuscultationAndOlfaction(闻诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authors(著作人)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BarksAndWoods(树皮)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bladder(膀胱)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodStasis(血瘀)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloodletting(放血疗法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyFluids(津液)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brain(脑)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassicalFormulas(经典方剂)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cold(寒)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdDampness(寒湿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cupping(拔罐)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DampHeat(湿热)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dampness(湿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DietaryIngredients(食用药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DietaryTherapy(饮食疗法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dryness(燥)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtraordinaryMeridians(奇经八脉)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacialObservation(面色观察)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue(疲劳)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fear(恐)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever(发热)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiveElements(五行)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowerHerbs(花药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruits(果实)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FungalAndAlgalIngredients(真菌与藻类)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralPoints(普通穴位)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart(心)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heat(热)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatTherapy(热疗法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerbalTherapy(中药疗法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herbs(草药)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredients(药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InorganicMaterialsAndElements(无机物质)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inquiry(问诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kidney(肾)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LargeIntestine(大肠)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeafHerbs(叶药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifestyleInquiry(生活习惯问询)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ListeningToBreathing(听呼吸)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liver(肝)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lung(肺)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManMadeSubstances(人工制剂)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineAndAquaticIngredients(海洋与水生药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marrow(髓)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Massage(推拿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meridians(经络)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MineralIngredients(矿物药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModernFormulas(现代方剂)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moxibustion(艾灸)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation(望诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organs(脏器)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pain(疼痛)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palpation(切诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhlegmDampness(痰湿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PulsePalpation(切脉)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QiGong(气功)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QiImbalance(气机失调)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#References(经典文献)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RootHerbs(根药材)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sadness(悲)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saliva(唾)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanjiao(三焦)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seeds(种子)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallIntestine(小肠)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmellingOdors(嗅气味)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificPoints(特定穴位)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spleen(脾)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stomach(胃)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweat(汗)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms(症状)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomsInquiry(症状问询)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syndromes(证候)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tears(泪)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Texts(经典书籍)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TongueObservation(舌诊)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraditionalChineseMedicine(中医)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urine(尿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uterus(女子胞)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WholeAnimals(整体)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wind(风)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindDampness(风湿)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worry(忧)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YinYangImbalance(阴阳失衡)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appliesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associatesWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causesSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnosesSyndrome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#explains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifiesSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manifestsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occursIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#targetsSyndrome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatsBody"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatsSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatsSyndrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbdominalPainWithCold(腹部冷痛)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BencaoGangmu(本草纲目)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CustomLiuWeiDiHuangPill(自制六味地黄丸)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dazhui(大椎)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EarthElement(土)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FireElement(火)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GojiBerries(优质枸杞)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoverningVessel(督脉)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HuangdiNeijing(黄帝内经)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KidneyYinDeficiency(肾阴虚)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LargeIntestineMeridian(手阳明大肠经)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetalElement(金)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoriaFungus(茯苓)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QiFlow(气流动)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QiImbalanceInYoungAdult(青年人的气机失调)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SourPlumDrink(酸梅汤)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StomachMeridian_(足阳明胃经)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SummerHeatWave(夏热浪)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WaterElement(水)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WildGinsengRoot(野生人参根)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindChillFromForest(林间风寒)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WoodElement(木)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YangPrinciple(阳)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YinPrinciple(阴)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zusanli(足三里)"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#diagnosesSyndrome"/>
+                <Class IRI="#Syndromes(证候)"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#identifiesSymptom"/>
+                <Class IRI="#Symptoms(症状)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ingredients(药材)"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#NatureRelatedEntities(自然)"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treatsSymptom"/>
+                <Class IRI="#Symptoms(症状)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pathogens(致病因素)"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#NatureRelatedEntities(自然)"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#causesSymptom"/>
+                <Class IRI="#Symptoms(症状)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Ingredients(药材)"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#targetsSyndrome"/>
+                <Class IRI="#Syndromes(证候)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#explains"/>
+                <Class IRI="#NatureRelatedEntities(自然)"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReference"/>
+                <Class IRI="#References(经典文献)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#appliesTo"/>
+                <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#explains"/>
+                <Class IRI="#NatureRelatedEntities(自然)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treatsBody"/>
+                <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treatsSyndrome"/>
+                <Class IRI="#Syndromes(证候)"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AbdominalPalpation(腹部触诊)"/>
+        <Class IRI="#Palpation(切诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acupoints(腧穴)"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acupuncture(针灸)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anger(怒)"/>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalParts(器官)"/>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalProducts(动物产品)"/>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuscultationAndOlfaction(闻诊)"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authors(著作人)"/>
+        <Class IRI="#References(经典文献)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BarksAndWoods(树皮)"/>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bladder(膀胱)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodStasis(血瘀)"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloodletting(放血疗法)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFluids(津液)"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brain(脑)"/>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicalFormulas(经典方剂)"/>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cold(寒)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdDampness(寒湿)"/>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cupping(拔罐)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DampHeat(湿热)"/>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dampness(湿)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#diagnosesSyndrome"/>
+            <Class IRI="#Syndromes(证候)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#identifiesSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#diagnosesSyndrome"/>
+            <Class IRI="#Syndromes(证候)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#identifiesSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DietaryIngredients(食用药材)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DietaryTherapy(饮食疗法)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dryness(燥)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtraordinaryMeridians(奇经八脉)"/>
+        <Class IRI="#Meridians(经络)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+        <Class IRI="#Organs(脏器)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacialObservation(面色观察)"/>
+        <Class IRI="#Observation(望诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue(疲劳)"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fear(恐)"/>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever(发热)"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiveElements(五行)"/>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowerHerbs(花药材)"/>
+        <Class IRI="#Herbs(草药)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruits(果实)"/>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuOrgans(六腑)"/>
+        <Class IRI="#Organs(脏器)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FungalAndAlgalIngredients(真菌与藻类)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralPoints(普通穴位)"/>
+        <Class IRI="#Acupoints(腧穴)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart(心)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat(热)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeatTherapy(热疗法)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerbalTherapy(中药疗法)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herbs(草药)"/>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        <Class IRI="#TraditionalChineseMedicine(中医)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingredients(药材)"/>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingredients(药材)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#treatsSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingredients(药材)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#treatsSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InorganicMaterialsAndElements(无机物质)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inquiry(问诊)"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kidney(肾)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LargeIntestine(大肠)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeafHerbs(叶药材)"/>
+        <Class IRI="#Herbs(草药)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifestyleInquiry(生活习惯问询)"/>
+        <Class IRI="#Inquiry(问诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ListeningToBreathing(听呼吸)"/>
+        <Class IRI="#AuscultationAndOlfaction(闻诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liver(肝)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lung(肺)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManMadeSubstances(人工制剂)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineAndAquaticIngredients(海洋与水生药材)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marrow(髓)"/>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Massage(推拿)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meridians(经络)"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MineralIngredients(矿物药材)"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModernFormulas(现代方剂)"/>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moxibustion(艾灸)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+        <Class IRI="#TraditionalChineseMedicine(中医)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#affects"/>
+            <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation(望诊)"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organs(脏器)"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pain(疼痛)"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palpation(切诊)"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathogens(致病因素)"/>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathogens(致病因素)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causesSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathogens(致病因素)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causesSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhlegmDampness(痰湿)"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+        <Class IRI="#Meridians(经络)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulsePalpation(切脉)"/>
+        <Class IRI="#Palpation(切诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QiGong(气功)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QiImbalance(气机失调)"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Ingredients(药材)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#targetsSyndrome"/>
+            <Class IRI="#Syndromes(证候)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Ingredients(药材)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#References(经典文献)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RootHerbs(根药材)"/>
+        <Class IRI="#Herbs(草药)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sadness(悲)"/>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saliva(唾)"/>
+        <Class IRI="#BodyFluids(津液)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanjiao(三焦)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seeds(种子)"/>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallIntestine(小肠)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmellingOdors(嗅气味)"/>
+        <Class IRI="#AuscultationAndOlfaction(闻诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificPoints(特定穴位)"/>
+        <Class IRI="#Acupoints(腧穴)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spleen(脾)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stomach(胃)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweat(汗)"/>
+        <Class IRI="#BodyFluids(津液)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptoms(症状)"/>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptoms(症状)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occursIn"/>
+            <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymptomsInquiry(症状问询)"/>
+        <Class IRI="#Inquiry(问诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syndromes(证候)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syndromes(证候)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSymptom"/>
+            <Class IRI="#Symptoms(症状)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syndromes(证候)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#manifestsIn"/>
+            <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#explains"/>
+            <Class IRI="#NatureRelatedEntities(自然)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasReference"/>
+            <Class IRI="#References(经典文献)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tears(泪)"/>
+        <Class IRI="#BodyFluids(津液)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Texts(经典书籍)"/>
+        <Class IRI="#References(经典文献)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+        <Class IRI="#TraditionalChineseMedicine(中医)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TongueObservation(舌诊)"/>
+        <Class IRI="#Observation(望诊)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#treatsBody"/>
+            <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#treatsSyndrome"/>
+            <Class IRI="#Syndromes(证候)"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#treatsBody"/>
+            <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#treatsSyndrome"/>
+            <Class IRI="#Syndromes(证候)"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urine(尿)"/>
+        <Class IRI="#BodyFluids(津液)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uterus(女子胞)"/>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WholeAnimals(整体)"/>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wind(风)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindDampness(风湿)"/>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worry(忧)"/>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YinYangImbalance(阴阳失衡)"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZangOrgans(五脏)"/>
+        <Class IRI="#Organs(脏器)"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AbdominalPalpation(腹部触诊)"/>
+        <Class IRI="#PulsePalpation(切脉)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Acupoints(腧穴)"/>
+        <Class IRI="#BodyFluids(津液)"/>
+        <Class IRI="#Meridians(经络)"/>
+        <Class IRI="#Organs(脏器)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Acupuncture(针灸)"/>
+        <Class IRI="#Bloodletting(放血疗法)"/>
+        <Class IRI="#Cupping(拔罐)"/>
+        <Class IRI="#DietaryTherapy(饮食疗法)"/>
+        <Class IRI="#HeatTherapy(热疗法)"/>
+        <Class IRI="#HerbalTherapy(中药疗法)"/>
+        <Class IRI="#Massage(推拿)"/>
+        <Class IRI="#Moxibustion(艾灸)"/>
+        <Class IRI="#QiGong(气功)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anger(怒)"/>
+        <Class IRI="#Fear(恐)"/>
+        <Class IRI="#Sadness(悲)"/>
+        <Class IRI="#Worry(忧)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AnimalDerivedIngredients(动物药材)"/>
+        <Class IRI="#BotanicalIngredients(植物药材)"/>
+        <Class IRI="#DietaryIngredients(食用药材)"/>
+        <Class IRI="#FungalAndAlgalIngredients(真菌与藻类)"/>
+        <Class IRI="#InorganicMaterialsAndElements(无机物质)"/>
+        <Class IRI="#ManMadeSubstances(人工制剂)"/>
+        <Class IRI="#MarineAndAquaticIngredients(海洋与水生药材)"/>
+        <Class IRI="#MineralIngredients(矿物药材)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AnimalParts(器官)"/>
+        <Class IRI="#AnimalProducts(动物产品)"/>
+        <Class IRI="#WholeAnimals(整体)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AuscultationAndOlfaction(闻诊)"/>
+        <Class IRI="#Inquiry(问诊)"/>
+        <Class IRI="#Observation(望诊)"/>
+        <Class IRI="#Palpation(切诊)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Authors(著作人)"/>
+        <Class IRI="#Texts(经典书籍)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BarksAndWoods(树皮)"/>
+        <Class IRI="#Fruits(果实)"/>
+        <Class IRI="#Herbs(草药)"/>
+        <Class IRI="#Seeds(种子)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BloodStasis(血瘀)"/>
+        <Class IRI="#PhlegmDampness(痰湿)"/>
+        <Class IRI="#QiImbalance(气机失调)"/>
+        <Class IRI="#YinYangImbalance(阴阳失衡)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ClassicalFormulas(经典方剂)"/>
+        <Class IRI="#ModernFormulas(现代方剂)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cold(寒)"/>
+        <Class IRI="#Dampness(湿)"/>
+        <Class IRI="#Dryness(燥)"/>
+        <Class IRI="#Heat(热)"/>
+        <Class IRI="#Wind(风)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ColdDampness(寒湿)"/>
+        <Class IRI="#DampHeat(湿热)"/>
+        <Class IRI="#WindDampness(风湿)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CombinedPathogens(复合外邪)"/>
+        <Class IRI="#ExternalPathogens(外邪)"/>
+        <Class IRI="#InternalPathogens(内伤七情)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExtraordinaryMeridians(奇经八脉)"/>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExtraordinaryOrgans(奇恒之腑)"/>
+        <Class IRI="#FuOrgans(六腑)"/>
+        <Class IRI="#ZangOrgans(五脏)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FacialObservation(面色观察)"/>
+        <Class IRI="#TongueObservation(舌诊)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fatigue(疲劳)"/>
+        <Class IRI="#Fever(发热)"/>
+        <Class IRI="#Pain(疼痛)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FlowerHerbs(花药材)"/>
+        <Class IRI="#LeafHerbs(叶药材)"/>
+        <Class IRI="#RootHerbs(根药材)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeneralPoints(普通穴位)"/>
+        <Class IRI="#SpecificPoints(特定穴位)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Heart(心)"/>
+        <Class IRI="#Kidney(肾)"/>
+        <Class IRI="#Liver(肝)"/>
+        <Class IRI="#Lung(肺)"/>
+        <Class IRI="#Spleen(脾)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ingredients(药材)"/>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LifestyleInquiry(生活习惯问询)"/>
+        <Class IRI="#SymptomsInquiry(症状问询)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ListeningToBreathing(听呼吸)"/>
+        <Class IRI="#SmellingOdors(嗅气味)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MethodsOfPractice(诊疗方法)"/>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+        <Class IRI="#References(经典文献)"/>
+        <Class IRI="#Syndromes(证候)"/>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saliva(唾)"/>
+        <Class IRI="#Sweat(汗)"/>
+        <Class IRI="#Tears(泪)"/>
+        <Class IRI="#Urine(尿)"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Pain(疼痛)"/>
+        <NamedIndividual IRI="#AbdominalPainWithCold(腹部冷痛)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Texts(经典书籍)"/>
+        <NamedIndividual IRI="#BencaoGangmu(本草纲目)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClassicalFormulas(经典方剂)"/>
+        <NamedIndividual IRI="#CustomLiuWeiDiHuangPill(自制六味地黄丸)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeneralPoints(普通穴位)"/>
+        <NamedIndividual IRI="#Dazhui(大椎)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FiveElements(五行)"/>
+        <NamedIndividual IRI="#EarthElement(土)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FiveElements(五行)"/>
+        <NamedIndividual IRI="#FireElement(火)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruits(果实)"/>
+        <NamedIndividual IRI="#GojiBerries(优质枸杞)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+        <NamedIndividual IRI="#GoverningVessel(督脉)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Texts(经典书籍)"/>
+        <NamedIndividual IRI="#HuangdiNeijing(黄帝内经)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YinYangImbalance(阴阳失衡)"/>
+        <NamedIndividual IRI="#KidneyYinDeficiency(肾阴虚)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+        <NamedIndividual IRI="#LargeIntestineMeridian(手阳明大肠经)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FiveElements(五行)"/>
+        <NamedIndividual IRI="#MetalElement(金)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FungalAndAlgalIngredients(真菌与藻类)"/>
+        <NamedIndividual IRI="#PoriaFungus(茯苓)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <NamedIndividual IRI="#QiFlow(气流动)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QiImbalance(气机失调)"/>
+        <NamedIndividual IRI="#QiImbalanceInYoungAdult(青年人的气机失调)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClassicalFormulas(经典方剂)"/>
+        <NamedIndividual IRI="#SourPlumDrink(酸梅汤)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimaryMeridians(十二经脉)"/>
+        <NamedIndividual IRI="#StomachMeridian_(足阳明胃经)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heat(热)"/>
+        <NamedIndividual IRI="#SummerHeatWave(夏热浪)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FiveElements(五行)"/>
+        <NamedIndividual IRI="#WaterElement(水)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Herbs(草药)"/>
+        <NamedIndividual IRI="#WildGinsengRoot(野生人参根)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wind(风)"/>
+        <NamedIndividual IRI="#WindChillFromForest(林间风寒)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FiveElements(五行)"/>
+        <NamedIndividual IRI="#WoodElement(木)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <NamedIndividual IRI="#YangPrinciple(阳)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+        <NamedIndividual IRI="#YinPrinciple(阴)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeneralPoints(普通穴位)"/>
+        <NamedIndividual IRI="#Zusanli(足三里)"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affects"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#appliesTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#associatesWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causesSymptom"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#diagnosesSyndrome"/>
+        <ObjectProperty IRI="#associatesWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#explains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#explains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReference"/>
+        <ObjectProperty IRI="#associatesWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <ObjectProperty IRI="#appliesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#identifiesSymptom"/>
+        <ObjectProperty IRI="#appliesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#manifestsIn"/>
+        <ObjectProperty IRI="#appliesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occursIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#targetsSyndrome"/>
+        <ObjectProperty IRI="#associatesWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treatsBody"/>
+        <ObjectProperty IRI="#appliesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treatsSyndrome"/>
+        <ObjectProperty IRI="#associatesWith"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#associatesWith"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causesSymptom"/>
+        <Class IRI="#Pathogens(致病因素)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnosesSyndrome"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#explains"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReference"/>
+        <Class IRI="#TCMPhilosophicalConcepts(中医哲学概念)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identifiesSymptom"/>
+        <Class IRI="#DiagnosticMethods(诊断方法)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#manifestsIn"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occursIn"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#targetsSyndrome"/>
+        <Class IRI="#Recipes/Formulas(方剂)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treatsBody"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treatsSyndrome"/>
+        <Class IRI="#TreatmentMethods(治疗方法)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#associatesWith"/>
+        <Class IRI="#TheoreticalEntities(理论)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causesSymptom"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diagnosesSyndrome"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#explains"/>
+        <Class IRI="#NatureRelatedEntities(自然)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredients(药材)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReference"/>
+        <Class IRI="#References(经典文献)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identifiesSymptom"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#manifestsIn"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#occursIn"/>
+        <Class IRI="#PhysiologicalEntities(人体生理结构)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#targetsSyndrome"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treatsBody"/>
+        <Class IRI="#HumanBodyRelatedEntities(人体)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <Class IRI="#Symptoms(症状)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treatsSyndrome"/>
+        <Class IRI="#Syndromes(证候)"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#affects</IRI>
+        <Literal>Describes the influence of natural entities (e.g., herbs, minerals, pathogens) on the human body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#appliesTo</IRI>
+        <Literal>Represents how TCM theoretical concepts are applied to the human body for diagnosis, treatment, or understanding health and illness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#associatesWith</IRI>
+        <Literal>Represents the interconnections or complementary relationships between TCM theoretical concepts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#causesSymptom</IRI>
+        <Literal>Specifies the relationship between a pathogen and the symptom(s) it causes in the human body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#diagnosesSyndrome</IRI>
+        <Literal>Links diagnostic methods to the syndromes they are used to diagnose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#explains</IRI>
+        <Literal>Indicates how TCM theoretical concepts describe, explain, or govern natural phenomena, such as herbs, environmental factors, or pathogens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIngredient</IRI>
+        <Literal>Links recipes or formulas to the specific ingredients they contain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasReference</IRI>
+        <Literal>Connects TCM philosophical concepts to the classical texts or references where they are documented.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSymptom</IRI>
+        <Literal>Connects a syndrome to the symptom(s) that characterize its manifestation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#identifiesSymptom</IRI>
+        <Literal>Indicates which symptom(s) are identified or detected by a diagnostic method.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manifestsIn</IRI>
+        <Literal>Links a syndrome to the part of the human body where its effects are observed or felt.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#occursIn</IRI>
+        <Literal>Links a symptom to the specific part of the human body where it occurs or is experienced.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#targetsSyndrome</IRI>
+        <Literal>Indicates the specific syndromes targeted by a recipe or formula.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#treatsBody</IRI>
+        <Literal>Specifies the relationship between a treatment method and the part of the human body it targets or affects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#treatsSymptom</IRI>
+        <Literal>Specifies the relationship between an natural ingredient and the symptom(s) it cures or treats in the human body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#treatsSyndrome</IRI>
+        <Literal>Specifies the relationship between treatment methods and the syndromes they are designed to address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumanBodyRelatedEntities(人体)</IRI>
+        <Literal>Entities related to the human body in TCM, including physiological structures, symptoms, and functional systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ingredients(药材)</IRI>
+        <Literal>Substances used for medicinal purposes (e.g., herbs, minerals, animal products).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MethodsOfPractice(诊疗方法)</IRI>
+        <Literal>Diagnostic and treatment techniques and methods (e.g., Pulse Palpation, Acupuncture, Cuping).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NatureRelatedEntities(自然)</IRI>
+        <Literal>Natural entities used in TCM, such as medicinal ingredients and disease-causing factors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pathogens(致病因素)</IRI>
+        <Literal>Causes of disease in TCM (e.g., wind, dampness, heat, emotional factors).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PhysiologicalEntities(人体生理结构)</IRI>
+        <Literal>Human body parts as understood in TCM (e.g., organs, meridians, acupoints).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recipes/Formulas(方剂)</IRI>
+        <Literal>Combinations of ingredients used as remedies (e.g., Suanmeitang).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#References(经典文献)</IRI>
+        <Literal>References to classical texts, authors, and chapter/section divisions, providing provenance and context.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Symptoms(症状)</IRI>
+        <Literal>Observable signs or complaints associated with illness (e.g., headache, fatigue).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Syndromes(证候)</IRI>
+        <Literal>Clusters of symptoms that indicate specific imbalances (e.g., Liver Qi Stagnation).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TCMPhilosophicalConcepts(中医哲学概念)</IRI>
+        <Literal>Core theories in TCM (e.g., Yin-Yang, Qi, Five Elements).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TheoreticalEntities(理论)</IRI>
+        <Literal>Medical methods, practices, concepts, theories, and philosophy forming the foundation of TCM.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TraditionalChineseMedicine(中医)</IRI>
+        <Literal>Represents the complete system of Traditional Chinese Medicine (TCM), encompassing theories, practices, natural remedies, and philosophical concepts developed over thousands of years.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
