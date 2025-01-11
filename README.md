@@ -60,8 +60,6 @@ The license was added as metadata in the ontology file and documented in the Git
 
 ## 
 
-## 
-
 ## References
 
 Li, D. (2001). Zhong yi ji chu li lun (Di 1 ban.). Ren min wei sheng chu ban she.  
